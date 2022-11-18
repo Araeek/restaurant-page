@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(./img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 60%;
+    overflow: hidden;
+}
+
+header {
+    position: sticky;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    background-color: #fff;
+    text-align: center;
+    width: 10%;
+}
+
+.logo img {
+    width: 60%;
+}
+
+.navbar {
+    align-self: stretch;
+    display: flex;
+    width: 90%;
+}
+
+.navbar>ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar::after {
+    content: "";
+    background: white;
+    flex: 1.15;
+}
+
+.navbar::before {
+    content: "";
+    background: white;
+    flex: 0.85;
+}
+
+
+.navbar li {
+    padding: 0 20px;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    color: #e84f3d;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.navbar ul>a:last-child>li {
+    padding-right: 0;
+}
+
+.active {
+    color: #fff !important;
+    background-color: rgba(0, 0, 0, 0.354) !important;
+    text-align: center;
+    justify-content: center;
+}
+
+main {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 74.7%;
+}
+
+.center-section {
+    color: #fff;
+    width: 40vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.366);
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.center-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.center-buttons button {
+    width: 120px;
+    height: 1.8rem;
+    font-size: 1.1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    background-color: #e84f3d;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.center-buttons button:active {
+    background-color: #aa392d;
+}
+
+.menu {
+    padding: 0 50px;
+    width: 100%;
+    display: flex;
+    align-self: stretch;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.menu-section {
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.562);
+    padding: 20px 30px;
+    border-radius: 25px;
+    border: 1.5px solid #e84f3d;
+    color: #fff;
+}
+
+.menu-section h4 {
+    font-size: 30px;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu-section p {
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline-block;
+    margin: 0;
+}
+
+.menu-section .item {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.address {
+    border-radius: 20px 0 0 20px;
+}
+
+.contact {
+    display: flex;
+    height: 100%;
+}
+
+.contact-details {
+    background-color: rgba(0, 0, 0, 0.366);
+    width: 500px;
+    border-radius: 0 20px 20px 0;
+    padding: 0 50px;
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contact-details h4 {
+    font-size: 30px;
+    margin: 20px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contact-details address {
+    justify-self: center;
+}
+
+.contact-details p {
+    margin: 10px 0 0 0;
+}
+
+.contact-details ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.contact-details ul li {
+    margin-bottom: 7px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e84f3d;
+    height: 7.7vh;
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: fantasy;
+    position: sticky;
+    top: 100%;
+}
