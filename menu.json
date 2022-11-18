@@ -1,0 +1,41 @@
+{
+  "Burgers": [
+    { "item": "Big Mac", "price": "4.99" },
+    { "item": "Mini Mac", "price": "2.99" },
+    { "item": "Normal Mac", "price": "3.99" },
+    { "item": "Big Mac - Meal", "price": "5.99" },
+    { "item": "2 Cheeseburgers", "price": "3.99" },
+    { "item": "2 Cheeseburgers - Meal", "price": "4.89" },
+    { "item": "Quarter Pounder with Cheese", "price": "3.79" },
+    { "item": "Quarter Pounder with Cheese - Meal", "price": "5.79" },
+    { "item": "Double Quarter Pounder with Cheese", "price": "4.79" },
+    { "item": "Double Quarter Pounder with Cheese - Meal", "price": "6.69" },
+    { "item": "Bacon Clubhouse Burger", "price": "4.49" }
+  ],
+  "Pizza": [
+    { "item": "Ultimate Pepperoni", "price": "15.99" },
+    { "item": "Cheese Pizza", "price": "7.99" },
+    { "item": "Spanich & Feta", "price": "13.99" },
+    { "item": "6 Cheese", "price": "11.99" },
+    { "item": "Hawaiian", "price": "15.99" },
+    { "item": "Cheese Steak", "price": "17.99" },
+    { "item": "Veggie", "price": "11.99" },
+    { "item": "Chicken Bacon", "price": "13.99" },
+    { "item": "Buffalo Chicken", "price": "13.99" },
+    { "item": "BBQ Chicken", "price": "15.99" },
+    { "item": "Deluxe", "price": "18.99" }
+  ],
+  "Sandwich": [
+    { "item": "Ultimate Steak", "price": "11.49" },
+    { "item": "Meatball Marinara", "price": "7.29" },
+    { "item": "Spicy Italian", "price": "8.49" },
+    { "item": "Chicken Caesar", "price": "7.79" },
+    { "item": "Roast Beef", "price": "9.49" },
+    { "item": "Steak & Cheese", "price": "9.49" },
+    { "item": "Subway Club", "price": "9.49" },
+    { "item": "Tuna", "price": "8.49" },
+    { "item": "Turkey & Bacon", "price": "11.49" },
+    { "item": "Turkey Breast", "price": "8.49" },
+    { "item": "Veggie", "price": "4.99" }
+  ]
+}
